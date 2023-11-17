@@ -1,0 +1,48 @@
+# Auto detect text files and perform crlf to lf normalization
+*	text=auto
+
+# Denote all files that are truly binary and should not be modified (binary is a macro for -text -diff)
+*.3ds				binary
+*.asset				binary
+*.asf				binary
+*.blend				binary
+*.colors			binary
+*.controller		binary
+*.cubemap			binary
+*.fbx				binary
+*.guiskin			binary
+*.jpg				binary
+*.mat				binary
+*.mp3				binary
+*.pdf				binary
+*.physicmaterial	binary
+*.png				binary
+*.psd				binary
+*.prefab			binary
+*.raw				binary
+*.sbsar				binary
+*.tga				binary
+*.tif				binary
+*.unity				binary
+*.unitypackage		binary
+*.wav				binary
+
+# Custom for Visual Studio
+*.cs		diff=csharp
+*.sln		merge=union
+*.csproj	merge=union
+*.vbproj	merge=union
+*.fsproj	merge=union
+*.dbproj	merge=union
+
+# Standard to msysgit
+*.doc	diff=astextplain
+*.DOC	diff=astextplain
+*.docx	diff=astextplain
+*.DOCX	diff=astextplain
+*.dot	diff=astextplain
+*.DOT	diff=astextplain
+*.pdf	diff=astextplain
+*.PDF	diff=astextplain
+*.rtf	diff=astextplain
+*.RTF	diff=astextplain
